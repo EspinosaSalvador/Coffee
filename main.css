@@ -1,0 +1,89 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body header nav img {
+    width: 75%;
+    position: absolute;
+    top: 55px;
+    left: 2px;
+    height: auto;
+    opacity: 0.5;
+}
+
+body {
+    background-color: bisque;
+}
+
+.nav-top-right {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    /* float: right; */
+    left: 50px;   
+    top: 50px;    
+    list-style-type: none;
+    padding: 20px;
+    margin-right: 15px;
+    width: 350px;
+    background-color: chocolate;
+
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 25px;
+}
+p {
+    text-align: center;
+    position: fixed;
+    top: 150px;
+    left: 500px;
+    margin: auto;
+    color: black;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.footer {
+    position: absolute;
+    bottom: 0%;
+    /* background-color: blue; */
+    width: 100%;
+    padding: 25px;
+    border: 2px solid chocolate;
+    margin: 25px;
+/*     box-sizing: border-box solid blue;
+ */    color: white;
+}
+
+#h1 {
+    text-align: left;
+    font-size: xx-large;
+    position: absolute;
+    left: 125px;
+    top: 0;
+}
+
+#h2 {
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+#mexican-flag {
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    right: 3%;
+}
+
+#form {
+    position: absolute;
+    right: 750px;
+    bottom: 205px;
+    font-size: x-large;
+}
